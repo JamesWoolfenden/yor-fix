@@ -1,0 +1,9 @@
+tag_groups:
+  - name: basics
+    tags:
+      - name: environment
+        value:
+          default: ${var.environment}
+      - name: source
+        value:
+          default: terraform
